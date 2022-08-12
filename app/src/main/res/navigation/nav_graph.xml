@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/UsersListFragment">
+
+    <fragment
+        android:id="@+id/UsersListFragment"
+        android:name="com.example.sliideusersbook.userslist.ui.UsersListFragment"
+        android:label="@string/users_list_fragment_label"
+        tools:layout="@layout/users_list_fragment">
+
+        <action
+            android:id="@+id/action_UsersListFragment_to_AddUserFragment"
+            app:destination="@id/AddUserFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/AddUserFragment"
+        android:name="com.example.sliideusersbook.addUser.ui.AddUserFragment"
+        android:label="@string/add_user_fragment_label"
+        tools:layout="@layout/add_user_dialog_layout">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/UsersListFragment" />
+    </fragment>
+</navigation>

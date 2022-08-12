@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">UsersBook</string>
+    <string name="title_activity_user_list">UserListActivity</string>
+
+    <string name="users_list_fragment_label">Users List</string>
+    <string name="add_user_fragment_label">Add User</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="users_list_add_user_button_title">Add user</string>
+    <string name="users_list_removal_dialog_confirmation_message">Are you sure you want to remove %1$s?</string>
+
+    <string name="users_list_deleting_success">User successfully deleted.</string>
+    <string name="users_list_adding_success">User successfully added.</string>
+
+    <string name="users_list_loading_error">Problem during loading users. Please try again.</string>
+    <string name="users_list_adding_error">Problem during adding new user. Please try again.</string>
+    <string name="users_list_removing_error">Problem during removing user. Please try again.</string>
+
+    <string name="add_user_user_name_label">Username</string>
+    <string name="add_user_email_label">Email</string>
+    <string name="add_user_gender_male_label">Male</string>
+    <string name="add_user_gender_female_label">Female</string>
+    <string name="add_user_is_active_label">Active</string>
+
+    <string name="add_user_dialog_title">Add user</string>
+    <string name="add_user_dialog_add_button_title">Add</string>
+    <string name="add_user_dialog_cancel_button_title">Cancel</string>
+    <string name="add_user_empty_field_error_message">This field can\'t be empty.</string>
+    <string name="add_user_wrong_email_error_message">Incorrect email format.</string>
+
+</resources>

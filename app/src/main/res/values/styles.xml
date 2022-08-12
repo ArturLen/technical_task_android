@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PrimaryButton">
+        <item name="android:textColor">@color/primaryButtonTextColor</item>
+        <item name="android:background">@drawable/primary_button_shape</item>
+    </style>
+</resources>
