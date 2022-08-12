@@ -1,4 +1,4 @@
-package com.example.sliideusersbook
+package com.example.usersbook
 
 import org.junit.Test
 
